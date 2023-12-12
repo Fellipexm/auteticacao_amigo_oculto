@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login e Cadastro</title>
+  <link rel="icon" href="assets/direita.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="texto">Sistema para Realização do Sorteio do Amigo Oculto</h1>
+  <form id="authForm">
+    <h2>Cadastro / Login</h2>
+    <label for="username">Usuário:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="accessToken">Token de Acesso:</label>
+    <input type="text" id="accessToken" name="accessToken" required>
+
+   
+    <button type="button" id="registerButton">Cadastrar</button>
+
+  
+    <button type="button" onclick="login()" id="loginButton">Login</button>
+
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
